@@ -21,6 +21,10 @@ const AddTasks = ({ onAddTaskSubmit }) => {
       />
       <button
         onClick={() => {
+          // Validação pra não adicionar vazio...
+          if (!title.trim() || !description.trim()) {
+            return alert("Preencha o título e a descrição da tarefa");
+          }
           onAddTaskSubmit(title, description);
           setTitle("");
           setDescription("");
