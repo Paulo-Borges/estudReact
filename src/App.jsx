@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import AddTasks from "./components/addTasks";
+import AddTasks from "./components/AddTasks";
 import Tasks from "./components/Tasks";
 import { v4 } from "uuid";
-import Title from "./components/title";
+import Title from "./components/Title";
 
 function App() {
   const [tasks, setTasks] = useState(
