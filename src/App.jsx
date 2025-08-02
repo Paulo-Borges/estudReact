@@ -28,7 +28,7 @@ function App() {
       // armazenar/persistir esses dados no state
       setTasks(data);
     }
-    fetchTasks();
+    // fetchTasks();
   }, []);
 
   function onTaskClick(taskId) {
