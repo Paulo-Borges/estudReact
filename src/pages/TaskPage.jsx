@@ -10,7 +10,7 @@ const TaskPage = () => {
   return (
     <div className="h-screen w-screen bg-slate-500 p-6">
       <div className="w-[500px] mx-auto space-y-4">
-        <div className="flex justify-center relative mb-6">
+        <div className="flex justify-center mx-auto relative mb-6">
           <button
             //   Voltar menos 1
             onClick={() => navigate(-1)}
